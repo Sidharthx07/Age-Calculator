@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="calculator.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Age Calculator</h1>
+
+    <div class="form">
+      <label for="nameInput">Enter your name</label>
+      <input type="text" id="nameInput" placeholder="Your Name">
+    </div>
+
+    <div class="form">
+      <label for="birthdayInput">Enter your date of birth</label>
+      <input type="date" id="birthdayInput" name="birthday">
+      <button onclick="calculateAge()">Calculate Age</button>
+      <p id="result"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; crafted by Sidharth &#10084;</p>
+  </footer>
+
+</body>
+
+</html>
